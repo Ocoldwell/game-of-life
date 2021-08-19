@@ -1,0 +1,17 @@
+#grid {
+  padding-bottom: 10px;
+}
+table {
+  background-color: whitesmoke;
+}
+td {
+  border: 1px solid darkgray;
+  width: 10px;
+  height: 10px;
+  &.dead {
+    background-color: transparent;
+  }
+  &.alive {
+    background-color: blue;
+  }
+}
